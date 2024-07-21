@@ -1,0 +1,23 @@
+.y-row{
+    background-color: #9C1F9A;
+    padding: 10px;
+}
+.box{
+   margin-top: 30px ;
+    padding: 0px !important;
+}
+.table-1{
+    width: 100% !important;
+}
+table ,th,td{
+    border: 1px solid rgb(0, 0, 0) ;
+    padding: 10px;
+}
+.green{
+    background-color: #008100;
+    color: white;
+}
+.name-div{
+   border: 1px solid rgb(0, 0, 0);
+   
+}
