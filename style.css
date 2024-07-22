@@ -21,3 +21,35 @@ table ,th,td{
    border: 1px solid rgb(0, 0, 0);
    
 }
+#a_div{
+    display: none;
+}
+.vas{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-height: 100vh;
+    padding: 100px;
+}
+body{
+    /* max-height: 100vh; */
+    overflow:  hidden !important;
+}
+.bgg{
+    background-color: #F7D8F7;
+}
+.bggg{
+    background-color: #9C1F9A;
+    padding: 5px;
+    color: #F7D8F7;
+    width: 100%;
+}
+.btnnn{
+    background-color: #9C1F9A;
+    color: #F7D8F7;
+}
+.btnnn:hover{
+    background-color: #9C1F9A;
+    color: #F7D8F7;
+}
+

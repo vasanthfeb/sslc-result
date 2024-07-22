@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SSLC Result</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -13,10 +15,12 @@
 
 
 
-        <div class="container mt-5">
-            <div class="row">
+        <div class="container mt-5" id="q_div">
+            <div class="row vas bgg">
+                
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6">
+                    <h2 class="text-center bggg">Examination Results</h2>
                    <div class="row">
                     <input type="text" name="" id="full_name_in" placeholder="Full Name" class="form-control mt-3">
                     <input type="text" name="" id="t-in" placeholder="Enter Your Tamli Mark" class="form-control  mt-3">
@@ -24,7 +28,7 @@
                     <input type="text" name="" id="m-in" placeholder="Enter Your Maths Mark" class="form-control  mt-3">
                     <input type="text" name="" id="s-in" placeholder="Enter Your Science Mark" class="form-control mt-3">
                     <input type="text" name="" id="ss-in" placeholder="Enter Your Social Science Mark"  class="form-control mt-3"> 
-                    <button class="btn btn-outline-success mt-4 mb-3" onclick="fun()">Send</button>
+                    <button class="btn btnnn mt-4 mb-3" onclick="fun()">Send</button>
                    </div>
                 </div>
                 <div class="col-lg-3"></div>
@@ -35,8 +39,9 @@
 
 
 
-        <div class="row">
-            <div class="col-lg-3"></div>
+        <div class="row " id="a_div">
+            <div class="row vas ">
+                <div class="col-lg-3"></div>
             <div class="col-lg-6">
                 <div class="row y-row">
                     <h5 class="text-center"><b class="text-light ">SSLC Examination Results April 2024</b></h5>
@@ -72,8 +77,8 @@
                             <td  id="ss-out" class="text-end"></td>
                            </tr>
                            <tr>
-                            <td>Total   </td>
-                            <td  id="t-out" class="text-end"></td>
+                            <td>Total</td>
+                            <td  id="total-out" class="text-end"></td>
                            </tr>
                            <tr>
                             <td>Result</td>
@@ -84,7 +89,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3"></div>
+            <div class="col-lg-3"></div> 
+            </div>
         </div>
     </div>
 
