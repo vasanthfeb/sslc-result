@@ -8,8 +8,12 @@ let fn=document.getElementById("full_name_in").value="";
 function fun(){
     
 let fn=document.getElementById("full_name_in").value;
+let full_name_array=[];
+full_name_array.push(fn);
+let fna=full_name_array.map(full_name_array=>full_name_array.toUpperCase());
 
-document.getElementById("full_name_out").innerHTML=fn;
+
+document.getElementById("full_name_out").innerHTML=fna;
 
 //name end
 
@@ -60,6 +64,7 @@ ar.push(m);
 ar.push(s);
 ar.push(ss);
 console.log(ar);
+
 
 
 
